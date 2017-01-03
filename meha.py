@@ -1,6 +1,13 @@
 """
 Project: MEHA
 
+Author K4YT3X, Fa11en
+
+Licensed under GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+(C) K4YT3X (2017)
+(C) Fa11en (2017)
+
+Description: Multi Encrypting Hashing Algorithm
 
 """
 import hashlib
@@ -41,10 +48,7 @@ def new_user(username, passwd):
 
     return 0
 
-def verify_user(username, passwd):
-    return 0
-
-
+# Example
 print(new_user('fallen',"123456"))
 print(new_user('k4t',"testpswd"))
 print(new_user('hi',"rainbow"))
