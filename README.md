@@ -1,6 +1,13 @@
-# MEHA
+# Multihasher
 
-<br>
+## Description
 
-## What is MEHA?
-MEHA, or Multi-Encryption Hashing Algorithm, is a POC of storing password safely. This Algorithm hashes the hash to prevent passwords from being cracked by rainbow tables. Also, salts are supported.
+Multihasher is A library that helps hash passwords multiple times, rendering the creation of a rainbow table extremely expensive, thus preventing password from being cracked.
+
+## Usages
+
+```python3
+from multihasher import Multihasher
+hasher = Multihasher()
+hasher.multihash('apassword')
+```
